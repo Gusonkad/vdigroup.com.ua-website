@@ -2,7 +2,7 @@
 
 ## Website for private brokage agency
 
-[<span style="text-align:center">![Header](https://github.com/Gusonkad/vdigroup.com.ua-website/blob/main/img/about.png)</span>](https://www.vdigroup.com.ua)
+[<div style="text-align:center">![Header](https://github.com/Gusonkad/vdigroup.com.ua-website/blob/main/img/about.png)</div>](https://www.vdigroup.com.ua)
 
 ### Languages and tools:
 ![JavaScript](https://img.shields.io/badge/Java_Script-101e3f?style=for-the-badge&logo=javascript)
