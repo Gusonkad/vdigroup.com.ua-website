@@ -1,11 +1,3 @@
-/* =====================================
-Template Name: Tromas
-Author Name: Codeglim
-Description: Tromas is a Multipurpose Business HTML5 Theme. It's Perfect for any business websites. You can customize every section as your need.
-Version:	1.1
-========================================*/
-
-
 /*======================================
 [ CSS Table of contents ]
 * Header CSS
@@ -14,20 +6,18 @@ Version:	1.1
 * Service CSS
 * Skill CSS
 * Story CSS
-* Portfolio CSS
-* Blog CSS
-* Newsletter CSS
+* Latest Works CSS
+* Testimonials CSS
 * Contact CSS
 * Clients CSS
 * Footer CSS
 ========================================*/
 
-
 /* body */
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 body {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #363636;
@@ -53,25 +43,23 @@ button {
     text-decoration: none;
 }
 
-
 /* Text selection background-color */
 
 ::-moz-selection {
-    background-color: #42BC7F;
+    background-color: #42bc7f;
     color: #fff;
 }
 
 ::selection {
-    background-color: #42BC7F;
+    background-color: #42bc7f;
     color: #fff;
 }
 
 ::-moz-selection,
 ::selection {
-    background-color: #42BC7F;
+    background-color: #42bc7f;
     color: #fff;
 }
-
 
 /* social */
 
@@ -106,15 +94,15 @@ button {
 }
 
 .social-body ul li.facebook a {
-    background: #425F9C;
+    background: #425f9c;
 }
 
 .social-body .ul li.twitter a {
-    background: #1DA1F3;
+    background: #1da1f3;
 }
 
 .social-body ul li.instagram a {
-    background: #E21B75;
+    background: #e21b75;
 }
 
 .social-body ul li.whatsapp a {
@@ -124,14 +112,14 @@ button {
     background: #0088cc;
 }
 
-
 /* button */
 
 a:hover {
     text-decoration: none;
 }
 
-.button {}
+.button {
+}
 
 .button .btn {
     font-weight: 500;
@@ -143,12 +131,12 @@ a:hover {
     padding: 0 30px 0 30px;
 }
 
-.button .primary {}
+.button .primary {
+}
 
 .section {
     padding: 100px 0;
 }
-
 
 /*section-title*/
 
@@ -168,7 +156,6 @@ a:hover {
     color: #42bc7f;
 }
 
-
 /*breadcrumb*/
 
 .breadcrumb {
@@ -187,11 +174,10 @@ a:hover {
 }
 
 .breadcrumb .breadcrumb-text h2 {
-    color: #42BC7F;
+    color: #42bc7f;
     padding-bottom: 10px;
-    border-bottom: 5px solid #42BC7F;
+    border-bottom: 5px solid #42bc7f;
 }
-
 
 /*slicknav_menu*/
 
@@ -217,7 +203,6 @@ a:hover {
 #scrollUp:hover {
     background: #333;
 }
-
 
 /*=========================
 	Header CSS
@@ -348,13 +333,12 @@ a:hover {
 }
 
 .header .nav li .dropdown .sub-dropdown li:hover a {
-    color: #42BC7F;
+    color: #42bc7f;
 }
 
 .header .nav li .dropdown .sub-dropdown li a {
     color: #fff;
 }
-
 
 /* Sticky */
 
@@ -369,11 +353,9 @@ a:hover {
     text-align: center;
 }
 
-
 /*=========================
 	End Header CSS
 ===========================*/
-
 
 /*=========================
 	Slider CSS
@@ -459,11 +441,9 @@ a:hover {
     background: #fff;
 }
 
-
 /*=========================
 	End Slider CSS
 ===========================*/
-
 
 /*=========================
 	About CSS
@@ -492,7 +472,7 @@ a:hover {
     font-size: 15px;
     height: 40px;
     color: #fff;
-    background: #42BC7F;
+    background: #42bc7f;
     display: inline-block;
     line-height: 40px;
     padding: 0 30px 0 30px;
@@ -522,7 +502,8 @@ a:hover {
     margin-top: 20px;
 }
 
-.about .single-about .social ul {}
+.about .single-about .social ul {
+}
 
 .about .single-about .social li {
     display: inline-block;
@@ -550,11 +531,11 @@ a:hover {
 
 .about .single-about .social ul li.facebook a:hover i {
     color: #fff;
-    background: #425F9C;
+    background: #425f9c;
 }
 .about .single-about .social ul li.instagram a:hover i {
     color: #fff;
-    background: #E21B75;
+    background: #e21b75;
 }
 .about .single-about .social ul li.whatsapp a:hover i {
     color: #fff;
@@ -603,11 +584,9 @@ a:hover {
     background: #3339;
 }
 
-
 /*=========================
 	End About CSS
 ===========================*/
-
 
 /*=========================
 	Services CSS
@@ -666,11 +645,9 @@ a:hover {
     font-weight: 300;
 }
 
-
 /*=========================
 	End Services CSS
 ===========================*/
-
 
 /*=========================
 	Skills CSS
@@ -768,11 +745,11 @@ a:hover {
 }
 
 .blog .single-sidebar {
-    border-bottom-color: #ED1C24;
+    border-bottom-color: #ed1c24;
 }
 
 .skill .progress .progress-bar span::before {
-    border-bottom-color: #ED1C24;
+    border-bottom-color: #ed1c24;
 }
 
 .skill .progress .progress-bar {
@@ -789,14 +766,12 @@ a:hover {
 }
 
 .skill .button .btn {
-    background: #ED1C24;
+    background: #ed1c24;
 }
-
 
 /*=========================
 	End Skills CSS
 ===========================*/
-
 
 /*=========================
 	Story CSS
@@ -822,7 +797,7 @@ a:hover {
     color: #000c;
     font-size: 17px;
     font-weight: 500;
-    position: relative
+    position: relative;
 }
 
 .story .single-story {
@@ -918,17 +893,16 @@ a:hover {
     text-align: justify;
 }
 
-
 /*=========================
 	End Story CSS
 ===========================*/
-
 
 /*=========================
 	Latest Works CSS
 ===========================*/
 
-.latest-works {}
+.latest-works {
+}
 
 .latest-works .section-title h2 {
     padding-bottom: 0px;
@@ -946,7 +920,8 @@ a:hover {
     text-align: center;
 }
 
-.latest-works .works-menu ul {}
+.latest-works .works-menu ul {
+}
 
 .latest-works .works-menu ul li {
     font-size: 15px;
@@ -1013,7 +988,6 @@ a:hover {
 .latest-works .works-menu ul li:last-child {
     margin: 0;
 }
-
 
 /* single-work */
 
@@ -1179,25 +1153,24 @@ a:hover {
     padding-left: 0px;
 }
 
-
 /*=========================
 	End Latest Works CSS
 ===========================*/
-
 
 /*=========================
 	Testimonials CSS
 ===========================*/
 
 .testimonials {
-    background-image: url('img/testimonial-bg.jpg');
+    background-image: url("img/testimonial-bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.testimonials .testi-content {}
+.testimonials .testi-content {
+}
 
 .testimonials .testi-content h2 {
     color: #fff;
@@ -1292,13 +1265,12 @@ a:hover {
     width: 20px;
 }
 
-.testimonials .owl-dots button span {}
-
+.testimonials .owl-dots button span {
+}
 
 /*=========================
 	End Testimonials CSS
 ===========================*/
-
 
 /*===========================
 	Contact CSS
@@ -1374,14 +1346,13 @@ a:hover {
     font-size: 20px;
     padding-top: 25px;
     margin-bottom: 5px;
-
 }
 .contact .contact-info li {
-    list-style-type:square;
+    list-style-type: square;
     position: relative;
     left: 20px;
     color: #777;
-    }
+}
 
 .contact .contact-info span {
     display: block;
@@ -1419,11 +1390,9 @@ a:hover {
     border-radius: 0px 7px 0px 7px;
 }
 
-
 /*===========================
 	End Contact CSS
 =============================*/
-
 
 /*===========================
 	Clients CSS
@@ -1468,14 +1437,12 @@ a:hover {
 }
 
 #clients .owl-nav button:hover {
-    color: #42BC7F;
+    color: #42bc7f;
 }
-
 
 /*===========================
 	End Clients CSS
 ============================*/
-
 
 /*===========================
 	Footer CSS
@@ -1495,9 +1462,11 @@ a:hover {
     margin-bottom: 60px;
 }
 
-.footer .logo img {}
+.footer .logo img {
+}
 
-.footer .social {}
+.footer .social {
+}
 
 .footer .social li {
     display: inline-block;
@@ -1521,7 +1490,7 @@ a:hover {
 }
 
 .footer .social li a:hover {
-    box-shadow: 0px 0px 5px #42BC7F inset;
+    box-shadow: 0px 0px 5px #42bc7f inset;
     color: #fff;
 }
 
@@ -1538,7 +1507,6 @@ a:hover {
 .footer .copyright p {
     color: #666666;
 }
-
 
 /*===========================
 	End Footer CSS
